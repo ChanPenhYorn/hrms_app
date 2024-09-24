@@ -1,4 +1,4 @@
-package com.example.chanpenh_getx
+package com.example.hrms_app
 
 import io.flutter.embedding.android.FlutterActivity
 

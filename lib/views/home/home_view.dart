@@ -1,6 +1,6 @@
-import 'package:chanpenh_getx/views/authentication/controller/welcome_con.dart';
-import 'package:chanpenh_getx/widgets/button.dart';
-import 'package:chanpenh_getx/widgets/drawer_widget.dart';
+import 'package:hrms_app/views/authentication/controller/welcome_con.dart';
+import 'package:hrms_app/widgets/button.dart';
+import 'package:hrms_app/widgets/drawer_widget.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

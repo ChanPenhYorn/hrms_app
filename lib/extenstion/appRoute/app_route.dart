@@ -1,6 +1,6 @@
-import 'package:chanpenh_getx/views/authentication/login/first.dart';
-import 'package:chanpenh_getx/views/home/home_view.dart';
-import 'package:chanpenh_getx/views/test/test_view.dart';
+import 'package:hrms_app/views/authentication/login/first.dart';
+import 'package:hrms_app/views/home/home_view.dart';
+import 'package:hrms_app/views/test/test_view.dart';
 import 'package:get/get.dart';
 
 class AppRoutes {

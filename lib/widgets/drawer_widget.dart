@@ -1,6 +1,6 @@
-import 'package:chanpenh_getx/extenstion/appRoute/app_route.dart';
-import 'package:chanpenh_getx/views/calendar/calendar_view.dart';
-import 'package:chanpenh_getx/views/home/controller/plus_number_controller.dart';
+import 'package:hrms_app/extenstion/appRoute/app_route.dart';
+import 'package:hrms_app/views/calendar/calendar_view.dart';
+import 'package:hrms_app/views/home/controller/plus_number_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import 'package:get/get_utils/get_utils.dart';

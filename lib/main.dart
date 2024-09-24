@@ -1,5 +1,5 @@
-import 'package:chanpenh_getx/constants/translate/translate.dart';
-import 'package:chanpenh_getx/extenstion/appRoute/app_route.dart';
+import 'package:hrms_app/constants/translate/translate.dart';
+import 'package:hrms_app/extenstion/appRoute/app_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';

@@ -1,4 +1,4 @@
-import 'package:chanpenh_getx/widgets/drawer_widget.dart';
+import 'package:hrms_app/widgets/drawer_widget.dart';
 import 'package:flutter/material.dart';
 
 class First extends StatelessWidget {
