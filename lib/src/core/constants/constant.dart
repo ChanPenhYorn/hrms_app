@@ -1,0 +1,3 @@
+class Constant {
+  static String domain = "http://127.0.0.1:8000";
+}

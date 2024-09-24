@@ -1,14 +1,20 @@
-import 'package:hrms_app/constants/translate/translate.dart';
-import 'package:hrms_app/extenstion/appRoute/app_route.dart';
+import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
+import 'package:hrms_app/src/controller/user_me_controller.dart';
+import 'package:hrms_app/src/core/services/local_storage_service.dart';
+import 'package:hrms_app/src/core/utils/translate/translate.dart';
+import 'package:hrms_app/src/core/navigation/appRoute/app_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() async {
   WidgetsFlutterBinding
       .ensureInitialized(); // Ensures bindings are ready for async operations
+  await GetStorage.init();
+  Get.put(UserController());
+  // Initialize LocalStorageService lazily
+  Get.lazyPut<LocalStorageService>(() => LocalStorageService());
 
-  // Create an instance of AppTranslations and load translations
   AppTranslations translations = AppTranslations();
   await translations.loadTranslations();
 
@@ -45,7 +51,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(), // Define the dark theme
       themeMode: ThemeMode.light, // Initial theme mode
 
-      initialRoute: AppRoutes.home,
+      initialRoute: AppRoutes.splash,
       getPages: AppRoutes.routes,
     );
   }
